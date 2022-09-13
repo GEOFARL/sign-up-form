@@ -11,18 +11,21 @@
     <div class="main-container">
       <div class="image-container">
         <section class="logo">
-          <img src="./logo.PNG" alt="bs-logo" width="80" />
+          <img src="./logo.PNG" alt="bs-logo" />
           <div>FAKE</div>
         </section>
         <div class="tribute">
           Photo by
-          <a href="https://www.pexels.com/@anniroenkae/">Anni Roenkae</a> on
-          <a href="https://www.pexels.com/">Pexels</a>
+          <a href="https://www.pexels.com/@lum3n-44775/" target="_blank"
+            >Lum3n</a
+          >
+          on
+          <a href="https://www.pexels.com/" target="_blank">Pexels</a>
         </div>
       </div>
       <div class="content-container">
         <form action="#" method="post">
-          <div>
+          <div class="first">
             This is not a real online service! You know you need something like
             this in your real life to help you realize your deepest dreams. Sign
             up now to get started.
@@ -30,76 +33,78 @@
           <div>You <em>know</em> you want to.</div>
           <section class="form">
             <h2>Let's do this!</h2>
-            <div class="input-field">
-              <label for="fname">FIRST NAME</label
-              ><input
-                id="fname"
-                name="user-first-name"
-                type="text"
-                pattern="[a-zA-Z]{2,15}"
-                required
-              />
-              <span></span>
-            </div>
-            <div class="input-field">
-              <label for="lname">LAST NAME</label
-              ><input
-                type="text"
-                id="lname"
-                name="user-last-name"
-                required
-                pattern="[a-zA-Z]{2,15}"
-              />
-              <span></span>
-            </div>
-            <div class="input-field">
-              <label for="email">EMAIL</label>
-              <input
-                type="email"
-                name="user-email"
-                id="email"
-                required
-                pattern="[\w\.\-_]{3,}@(gmail|outlook|hotmail|yahoo).(com)"
-              />
-              <span></span>
-            </div>
-            <div class="input-field">
-              <label for="phone">PHONE NUMBER</label
-              ><input
-                type="tel"
-                id="phone"
-                name="user-phone-number"
-                required
-                pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$"
-              />
-              <span></span>
-            </div>
-            <div class="input-field">
-              <label for="password">PASSWORD</label
-              ><input
-                type="password"
-                required
-                id="password"
-                name="user_password"
-                pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
-              />
-              <span></span>
-            </div>
-            <div class="input-field">
-              <label for="conpassword">CONFIRM PASSWORD</label
-              ><input
-                type="password"
-                id="conpassword"
-                pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
-                required
-                name="confirm-password"
-              />
-              <span></span>
+            <div class="container">
+              <div class="input-field">
+                <label for="fname">FIRST NAME</label
+                ><input
+                  id="fname"
+                  name="user-first-name"
+                  type="text"
+                  pattern="[a-zA-Z]{2,15}"
+                  required
+                />
+                <span></span>
+              </div>
+              <div class="input-field">
+                <label for="lname">LAST NAME</label
+                ><input
+                  type="text"
+                  id="lname"
+                  name="user-last-name"
+                  required
+                  pattern="[a-zA-Z]{2,15}"
+                />
+                <span></span>
+              </div>
+              <div class="input-field">
+                <label for="email">EMAIL</label>
+                <input
+                  type="email"
+                  name="user-email"
+                  id="email"
+                  required
+                  pattern="[\w\.\-_]{3,}@(gmail|outlook|hotmail|yahoo).(com)"
+                />
+                <span></span>
+              </div>
+              <div class="input-field">
+                <label for="phone">PHONE NUMBER</label
+                ><input
+                  type="tel"
+                  id="phone"
+                  name="user-phone-number"
+                  required
+                  pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$"
+                />
+                <span></span>
+              </div>
+              <div class="input-field">
+                <label for="password">PASSWORD</label
+                ><input
+                  type="password"
+                  required
+                  id="password"
+                  name="user_password"
+                  pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+                />
+                <span></span>
+              </div>
+              <div class="input-field">
+                <label for="conpassword">CONFIRM PASSWORD</label
+                ><input
+                  type="password"
+                  id="conpassword"
+                  pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+                  required
+                  name="confirm-password"
+                />
+                <span></span>
+              </div>
             </div>
           </section>
           <button type="submit">Create Account</button>
         </form>
-        <div>Already have an account? <a href="#">Log in</a></div>
+        <div class="login">Already have an account? <a href="#">Log in</a></div>
       </div>
     </div>
   </body>
